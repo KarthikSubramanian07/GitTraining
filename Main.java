@@ -3,6 +3,7 @@ import Varun.Test;
 import Ujjawal.Practice;
 import Saransh.Testing;
 import Siddarth.Challenge;
+import Karthik.Car;
 
 public class Main {
     
@@ -31,6 +32,11 @@ public class Main {
 
         Challenge challenge2 = new Challenge(15,5);
         challenge2.Calculate();
+
+        Car car = new Car("Toyota","Corolla",2020, false);
+        car.printMyCar();
+        System.out.println("Car:"+car.getCarName());
+        System.out.println("Age of Car:"+car.ageOfCar());
 
     }
 }
